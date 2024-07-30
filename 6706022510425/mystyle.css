@@ -1,0 +1,38 @@
+h1 {
+    color: salmon;
+}
+h2 {
+    color: purple;
+}
+
+
+.textred{
+    color: rgb(255, 0, 0);
+}
+.textop{
+    color: rgb(12, 243, 108);
+}
+#textwww{
+    color: rgb(255, 8, 160);
+}
+
+
+div.mycontainer {
+    width:100%;
+    overflow:auto;
+    text-align: center;
+  }
+  div.mycontainer div {
+    width:33%;  
+    float:left;
+}
+.div-bg1{
+background-color: brown;
+}
+.div-bg2{
+    background-color: rgb(255, 0, 119);
+    }
+.div-bg3{
+    background-color: rgb(255, 7, 7);
+    }
+
