@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>CSS Template</title>
-<link rel="stylesheet" href="css/newstyle.css">
+<link rel="stylesheet" href="/css/newstyle.css"
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -16,11 +16,11 @@ body {
 
 /* Style the header */
 header {
-  background-color: #a408ff;
-  padding: 50px;
+  background-color: #a572df;
+  padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: white;
+  color: rgb(255, 123, 0);
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -28,13 +28,13 @@ nav {
   float: left;
   width: 30%;
   height: 889px; /* only for demonstration, should be removed */
-  background: #f5bbbb;
+  background: #7ddce9;
   padding: 20px;
 }
 
 /* Style the list inside the menu */
 nav ul {
-  list-style-type: circle;
+  list-style-type: none;
   padding: 0;
 }
 
@@ -42,8 +42,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
-  height: auto; /* only for demonstration, should be removed */
+  background-color: #6cd1ff; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
@@ -55,7 +54,7 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: #00ffc8;
   padding: 10px;
   text-align: center;
   color: white;
@@ -72,9 +71,6 @@ footer {
 </head>
 <body>
 
-<h2>CSS Layout Float</h2>
-<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
 
 <header>
   <h2>Cities</h2>
@@ -88,6 +84,9 @@ footer {
       <li><a href="#">Tokyo</a></li>
     </ul>
   </nav>
+
+  
+
   
   <article>
     <form>
@@ -182,7 +181,6 @@ footer {
           </table>
       </div>
   </form>
-  </article>
 </section>
 
 <footer>
@@ -191,3 +189,4 @@ footer {
 
 </body>
 </html>
+
