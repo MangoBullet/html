@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+.header{
+    padding: 60px;
+    text-align: center;
+    background: darkgreen;
+    color: white;
+}
+
+.navber{
+    display: flex;
+    background-color: black;
+
+}
+
+.navber a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navber a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side{
+    flex: 30%;
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+}
+
+.main{
+    flex: 70%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.fakeimg{
+    background-color: rgb(109, 108, 109);
+    width: 100%;
+    padding: 20px;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+@media screen and (max-width: 700px) {
+    .row, .navber {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,22 @@
+.container{
+    border: 2px solid black;
+    width: 100%;
+}
+header{
+    border: 2px solid red;
+}
+aside{
+    height: 250px;
+    flex-direction: column;
+    float: left inline-end;
+    border: 2px solid rgb(178, 253, 3);
+}
+article{
+    width: 50%;
+    float:  inline-end;
+    border: 2px solid rgb(89, 0, 255);
+}
+footer{
+    width: 100%;
+    border: 2px solid rgb(5, 227, 243);
+}
